@@ -169,7 +169,7 @@ var styles = StyleSheet.create({
   },
 ```
 
-这句话的作用是让`rightContainer`在父容器中占据Image之外剩下的全部空间。如果你还不是很理解的话，你可以往`rightContainer`里增加一个`backgroundColor`看一看，然后再去掉`flex:1`对比一下。你会发现去掉这一句后，容器会变成能容纳它孩子的最小大小。
+这句话的作用是让`rightContainer`在父容器中占据Image之外剩下的全部空间。如果你还不是很理解的话，你可以往`rightContainer`里增加一个`backgroundColor`看一看，然后再去掉`flex:1`对比一下。你会发现去掉这一句后，容器会变成能容纳它子视图的最小大小。
 
 给文字添加样式就简单的多了：
 
